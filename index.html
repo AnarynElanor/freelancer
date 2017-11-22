@@ -1,0 +1,140 @@
+<!-- Agrega aquí la estructura HTML de tu sitio web -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!--Definimos carácters, se enlazan fuentes, y archivos de estilo. -->
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	    <link rel="stylesheet" type="text/css" href="css/main.css">
+	    <link rel="stylesheet" href="assets/icon/font-awesome.css">
+
+	    <title>Freelance</title>
+	</head>
+	<body class="clear"> <!-- Cuerpo del HTML -->
+	    <header class="uppercase text-white">  <!-- Encabezado fijo con el nombre de las secciones que contendrá -->
+	      <a href="#"><span id="initial-name">start bootstrap</span></a> <!-- Se coloca un id para darle propiedades específicas -->
+	      <div class="menu"> <!-- Caja para posicionar el menú en el bloque -->
+		        <a href="#"><span class="menu-prop">portfolio</span></a> <!--Se engloba en un link-->
+		        <a href="#"><span class="menu-prop">about</span></a>  <!-- Con el span y sus propiedades cada opción del menu queda en la misma línea -->
+		        <a href="#"><span class="menu-prop">contact</span></a>
+	      </div>
+	    </header> 
+	    <main> <!-- Empieza contenido de la página dividido por secciones -->
+	      <section class=" clear section1"> <!-- Primera sección en verde-->
+		        <div class="clear container1"> <!-- Caja para alinear los elementos al centro sin problemas en el div y éste a su vez en la sección -->
+		          <img src="assets/images/profile.png" alt="image profile"> <!-- Se llama primera imagen -->
+		          <p class="name-secc1 uppercase text-white clear">start bootstrap</p> <!-- Párrafo para que actue en bloque -->
+		          <img class="star" src="assets/images/star_white.png" alt="line star"> <!-- Imagen de la estrella -->
+		          <p id="habilidades">Web Developer - Graphic Artist - User Experience Designer</p> <!-- Párrafo para que actue como bloque -->
+		        </div>
+	      </section> 
+	      <section class="clear section2"> <!-- Segunda sección en blanco -->
+		        <div class="clear container2"> <!-- Caja div para alinear los elementos al centro sin problemas en el div y en la sección -->
+		          <p class="name-section uppercase clear">portfolio</p>
+		          <img class="star-secc" src="assets/images/star_blue.png" alt="line star">
+		          <br> <!-- Salto para que el div baje -->
+		          <div class="bloque1"> <!-- Se agrupan las 3 primeras imágenes en horizontal -->
+			            <img class="porta-img float-l" src="assets/images/portfolio/cabin.png" alt="cabin image">
+			            <img class="porta-img" src="assets/images/portfolio/cake.png" alt="cake image">
+			            <img class="porta-img float-r" src="assets/images/portfolio/circus.png" alt="circus image">
+		          </div>
+		          <div class="bloque2"> <!-- Se utiliza mismo procedimiento para las imágenes de abajo, pero en otro div-->
+			            <img class="porta-img float-l" src="assets/images/portfolio/game.png" alt="game image">
+			            <img class="porta-img" src="assets/images/portfolio/safe.png" alt="safe image">
+			            <img class="porta-img float-r" src="assets/images/portfolio/submarine.png" alt="submarine image">
+		          </div>
+		        </div>
+	      </section> 
+	      <section class="clear section3"> <!-- Comienza sección 3-->
+		        <div class="clear container3">
+		          <p class="name-section uppercase clear text-white">about</p>
+		          <img class="star-secc" src="assets/images/star_white.png" alt="line star">
+		          <br>
+		          <p class="about">
+		          		Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+		          </p>
+		          <p class="about2">
+		          		Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+		          </p>
+		          <div> <!-- Botónn Download Theme, usamos un Pure Botton patra poder integrar el ícono de Download -->
+		            	<button class="pure-button"><i class="fa fa-download"></i> Download Theme</button>
+		          </div>
+		        </div>
+	      </section>
+	      <section class="clear section4">  <!-- Comienza seccion 4-->
+		        <div class="clear container4"> <!-- Caja para alinear los elementos al centro sin problemas en el div y éste a su vez en la sección -->
+		          <p class="name-section uppercase clear">contact me</p>
+		          <img class="star-secc" src="assets/images/star_blue.png" alt="line star">
+		          <br> 
+		          <div id="formulario">
+			            <form class="form"> <!-- Formulario de Contact Me -->
+			                <div class="date">
+			                  <input type="text" placeholder="Name" /> <!-- Con placeholder nos quitamos la etiqueta label -->
+			                  <hr>
+			                </div>
+			                <div class="date">
+			                  <input type="text" placeholder="Email Address" />
+			                  <hr>
+			                </div>
+			                <div class="date">
+			                  <input type="text" placeholder="Phone Number" />
+			                  <hr>
+			                </div>
+			                <div class="date"> <!-- textarea te sirve para poner una caja de texto que acepte varias líneas -->
+			                  <textarea name="texto" rows="4" cols="40" placeholder="Message"></textarea>
+			                  <hr>
+			                </div>
+			                <div> <!-- boton de Send -->
+			                  <a href="#"><input type="button" value="Send"/></a>
+			                </div>
+			            </form>
+		          </div>
+		        </div>
+	      </section> 
+	  	</main>
+		<footer>  <!-- Inicio del footer -->
+			<div class="container">
+				<div class="info"> <!-- Se declara el primer div que es el contenedor de los demás elementos-->
+					
+					<div class="info-box"> <!--Caja para la locación -->
+						<h2 class="title">LOCATION</h2> <!--Título de locación -->
+						<div> <!-- -->
+							<p class="foot">3481 Melrose Place <br>Beverly Hills, CA 90210</p> <!-- Párrafo para la dirección -->
+						</div>
+					</div>
+					<div class="info-box"> <!-- Caja para los logos de los diferentes sitios web -->
+						<h2>AROUND THE WEB</h2> 
+						<div>
+							<div class="logo"> <!-- Cajita para cada logo -->
+								<a href="#"><span class="fa fa-fw fa-facebook"></span></a> <!--Llamamos al logo y le ponemos el link-->
+							</div>
+							<div class="logo">
+								<a href="#"><span class="fa fa-fw fa-google-plus"></span></a> <!--Llamamos al logo y le ponemos el link-->
+							</div>
+							<div class="logo">
+								<a href="#"><span class="fa fa-fw fa-twitter"></span></a> <!--Llamamos al logo y le ponemos el link-->
+							</div>
+							<div class="logo">
+								<a href="#"><span class="fa fa-fw fa-linkedin"></span></a> <!--Llamamos al logo y le ponemos el link-->
+							</div>	
+							<div class="logo">
+								<a href="#"><span class="fa fa-fw fa-dribbble"></span></a> <!--Llamamos al logo y le ponemos el link-->
+							</div>	
+						</div>
+					</div>	
+					<div class="info-box"> <!-- Caja para info del freelancer -->
+						<h2>ABOUT FREELANCER</h2> 
+						<p class="foot">Freelance is a free to use, open source Bootstrap theme created by <a id="sb"href="#">Start Bootstrap</a>.</p> <!--Párrafo apra información del Freelancer-->
+						</div>
+					</div>
+					<div class="copyright" > <!--Caja para el espacio del Copyright -->
+						<p id="cp">Copyright © Your Website 2017</p> <!-- Párrafo para el texto del Copyright-->
+
+					</div>
+				</div>
+			</div>	
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,305 @@
+.clear{  /*Clear para limpiar margen*/
+  padding: 0;
+  margin: 0;
+}
+.uppercase{  /*Convertimos a mayúsculas*/
+  text-transform: uppercase;
+}
+.text-white{ /*Textos blanco*/
+  color: white;
+}
+header{
+  position: fixed;
+  z-index: 1; /*Hacemos que siempre aparezca arriba de todos los elementos*/
+  background: #2C3E50;
+  width: 100%;
+  height: 110px;
+  font-size: 12pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; /*El grueso de la tipografía*/
+}
+.about{ /*Sección 3 párrafo 1*/
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 16%;
+  margin-right: 2%;
+  width: 30%;
+  text-align: left;
+  letter-spacing: 0.5px;
+  line-height: 23pt;
+  color: white;
+  font-size: 14pt;
+  font-family: 'Lato', sans-serif;
+}
+.about2{ /*Sección 3 párrafo 2*/
+  display: inline-block;
+  margin-top: 0;
+  margin-right: 16%;
+  margin-left: 2%;
+  width: 30%;
+  text-align: left;
+  letter-spacing: 0.5px;
+  line-height: 23pt;
+  color: white;
+  font-size: 14pt;
+  font-family: 'Lato', sans-serif;
+
+}
+.menu{ /*Para el menú*/
+  float: right;
+  margin-top: 44px;
+  margin-right: 9%;
+}
+.menu-prop{ /*Elementos del bloque del menú*/
+  margin-right:11px;
+  letter-spacing: 1px;
+}
+#initial-name{
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 9%;
+  font-size: 24pt;
+}
+.section1{ /*Delimitando espacio y color  de fondo de la sección1*/
+  width: 100%;
+  height: 792px;
+  background: #18BC9C;
+}
+.section2{ /*Para sección2*/
+  width: 100%;
+  height: 792px;
+}
+.section3{ /*Para sección3*/
+  width: 100%;
+  height: 560px;
+  background: #18BC9C;
+}
+.section4{ /*Para sección4*/
+  width: 100%;
+  height: 850px;
+}
+.container1{ /*Contenedores de seccion para alinear al centro*/
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 960px;
+  height: 492px;
+}
+.container2{
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 86%;
+  height: 600px;
+}
+.container3{
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 86%;
+  height: 300px;
+}
+.container4{
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 960px;
+  height: 600px;
+}
+.name-secc1{
+  padding: 25px;
+  font-size: 57pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+#habilidades{
+  margin-top: 20px;
+  color: white;
+  font-size: 21pt;
+  font-family: 'Lato', sans-serif;
+}
+.porta-img{ /*Medidas de las imagenes*/
+  padding-left: 10px;;
+  padding-right: 10px;
+  margin-bottom: 30px;
+  width: 30%;
+}
+.name-section{ /*General para los nombres de sección 2,3,4*/
+  font-size: 36pt;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.star{ /*Para la primera sección el separador de estrella*/
+  width: 250px;
+}
+.star-secc{  /*Para el separador de estrella en las secciones*/
+  margin-top: 13px;
+  margin-bottom: 15px;
+  width: 250px;
+}
+.float-l{ /*Elementos flotados a la izquierda*/
+  float: left;
+}
+.float-r{  /*Elementos flotados a la derecha*/
+  float: right;
+}
+#formulario{
+  text-align: center;
+}
+.form{
+  text-align: left;
+  display: inline-block;
+  margin-top: 0px;
+  width: 650px;
+  height: 200px;
+}
+hr{ /*Características de la línea hr que separa los campos del formulario*/
+  background-color: #eaeaea;
+  height: 1px;
+  border: 0;
+}
+.date{
+  margin-bottom: 20px;
+}
+input[type="text"] { /*Estilo de texto y área de los inputs */
+  color: #868EB1;
+  font-size: 18pt;
+  font-family: 'Lato', sans-serif;
+  width: auto;
+  background: none;
+  border: none;
+  height: 65px;
+}
+textarea[placeholder="Message"] { /*Estilo de texto y área del textarea */
+  color: grey;
+  font-size: 18pt;
+  font-family: 'Lato', sans-serif;
+  width: 650px;
+  background: none;
+  border: none;
+  height: 120px;
+}
+input[type="button"]{ /*Estilo de botón Send*/
+  padding: 10px 15px;
+  background-color: #18bc9c ;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.pure-button{ /*Estilo de botón Download theme*/
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  padding: 10px 10px 10px 20px;
+  background-color: #18bc9c;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+a {   /*Estilo del link*/
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:-webkit-any-link { /*Color del link al interactuar*/
+    color: #FFF;
+    cursor: auto;
+    text-decoration: none;
+}
+
+a, a.active, a:active, a:focus, a:hover {  /*Color del link al interactuar*/
+    color: #18bc9c;
+    outline: 0;
+    text-decoration: none; 
+}
+
+h2{          /*Estilo de los encabezados*/
+	font-style: bold;
+}
+
+
+
+.foot {
+  line-height: 23pt;
+	font-size: 18px;
+	font-style: bold;  
+}
+
+.container {     /*Estilo del contenedor de los elementos del footer*/
+	/*position: relative;*/
+	width: 100%; 
+	height: 300px; 
+	background-color: #2C3E50; 
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	bottom:0;
+	vertical-align: top;
+}
+
+.copyright{ /*Elementos del Copyright*/
+
+	align-items: center;
+	text-align: center;
+}
+
+
+.logo{   /*Estilos de los divs que contienen cada logo*/
+	display: inline-block;
+	vertical-align: center;
+	border-radius: 50%;
+	padding: 2%;
+	border: 2px solid #FFF;
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+}
+
+.info{    /*Estilo de la seccion que contine la clase logo*/
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 80%;
+  	top: 30%;
+}
+
+.info-box{ /*Cada seccion de información tiene su propio contenedor*/
+	width: 30%;
+	height: inherit;
+}
+
+#cp{  /*id en el copiryght para darle prioridad al tamaño de letra*/
+	font-size: 15px;
+}
+
+#sb:-webkit-any-link {
+	color: #18bc9c;
+	cursor: auto;
+	text-decoration: none;
+	font-size: 20px;
+	font-style: bold;
+
+}
+
+
+#sb, #sb.active, #sb:active, #sb:focus, #sb:hover {  /*Subrayado al interactuar*/
+   
+    text-decoration: underline;
+}
+
+
