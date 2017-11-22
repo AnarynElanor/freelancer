@@ -5,8 +5,7 @@
 
 El reto consiste en replicar el sitio de **Freelancer**
 
-Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
-  para que te des una idea de como debe quedar.
+Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/) para que te des una idea de como debe quedar.
 
 
 ##Proceso
@@ -34,7 +33,7 @@ Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap
 
 Este deberá ser el resultado: 
 
-![Freelancer Website](docs/fullpage.png)
+![Freelancer Website](fullpage.png)
 
 
 
